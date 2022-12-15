@@ -1,0 +1,6 @@
+sudo apt install lxc 
+sudo lxc-create -t download -n danila -- -d kali -r current -a amd64  
+sudo lxc-create -t download -n danila1 -- -d kali -r current -a amd64  
+sudo lxc-start danila
+sudo lxc-start danila1
+sudo lxc-ls -f  
